@@ -18,5 +18,10 @@
             android:text="New Text"
             android:id="@+id/textView" android:layout_below="@+id/textView2" android:layout_toRightOf="@+id/textView2"
             android:layout_marginTop="14dp"/>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView" android:layout_marginTop="31dp">
+    </TableRow>
 
 </RelativeLayout>
